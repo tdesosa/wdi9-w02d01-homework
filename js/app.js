@@ -1,6 +1,6 @@
 // console.log("test");
 
-// Q1)
+// Section 1. Data Types
 
 // Boolean
 lightSwitchIsOn = true;
@@ -47,4 +47,25 @@ const students2 = {
         favoriteTvShows: ["tvShow1", "tvShow2"],
     }
 };
+
+// Section 2. Take it Easy
+
+// Q1)
+
+const rainbowArray = ["red", "orange", "yellow", "green", "blue", "purple", "violet"];
+
+// Q2)
+
+console.log(rainbowArray[4]);
+
+// Q3) & Q4)
+
+const Tomas = {
+    favoriteFood: "pizza",
+    hobby: "sports",
+    CurrenLocation: "Denver",
+    favDataType: "boolean"
+}
+
+console.log(Tomas.hobby);
 
