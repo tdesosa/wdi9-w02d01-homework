@@ -168,3 +168,15 @@ const bondFilms = [
   };
   console.log(bondTitles);
 
+  // Q6)
+
+  const oddBonds = [];
+  for(i = 0; i < bondFilms.length; i ++){
+      if(i % 2 != 0){
+        oddBonds.push(bondFilms[i].year);
+      }
+  }
+  console.log(oddBonds);
+
+
+
